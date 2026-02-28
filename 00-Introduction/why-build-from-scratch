@@ -1,15 +1,15 @@
-#why-build-from=scratch?
+why-build-from=scratch?
 
-##what is avaiable already?
-   today we already have kernels like:
+what is avaiable already?
+   #today we already have kernels like:
        *linux kernel
        *BSD
        *Minix
-   so the question becomes:
+   #so the question becomes:
        if kernel already exist... why people build kernel from scratch?
   
 
-###Simple analogy:
+Simple analogy:
    ==> you can buy a car, but some people still build their own car engine. why? not because car don't exist , because they want: 
        *control
        *learning
