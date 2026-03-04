@@ -1,14 +1,14 @@
-💿 GRUB Bootable ISO
-What is it?
+#💿 GRUB Bootable ISO
+##What is it?
 
 A GRUB Bootable ISO is a ready-to-run disk image of your kernel that GRUB can load.
 Think of it as “packaging your kernel so the PC can start it”.
 
-Bee Kernel Implementation
+#Bee Kernel Implementation
 
 Use GRUB as the bootloader
 
-Steps to make ISO:
+##Steps to make ISO:
 
 Compile your kernel (kernel.bin)
 
@@ -27,7 +27,7 @@ menuentry "Bee Kernel" {
     boot
 }
 
-Generate ISO:
+#Generate ISO:
 
 grub-mkrescue -o bee.iso iso/
 Quick Notes
